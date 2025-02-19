@@ -86,6 +86,8 @@ Chorchanba - 1-guruh Ona tili 2-guruh Matematika
 Juma -Matematika 1-2 guruh
 Shanba-Fizika 1-2 guruh 10:30-12:00''')
 
+async def main():
+    await dp.start_polling(bot)   
 
 if __name__=="__main__":
     asyncio.run(main())
